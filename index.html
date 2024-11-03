@@ -1,0 +1,20 @@
+// src/pages/index.tsx
+
+import React from 'react';
+
+const PaginaPrincipal = () => {
+  return (
+    <div className="container mx-auto p-5">
+      <h1 className="text-4xl font-bold mb-5 text-center">Bienvenido a Mi Aplicación</h1>
+      <p className="text-lg text-center mb-5">Esta es una aplicación de ejemplo utilizando Next.js con Vite.</p>
+      {/* Enlace a la gestión de clientes */}
+      <div className="flex justify-center">
+        <a href="/clientes" className="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 transition">
+          Ir a la Gestión de Clientes
+        </a>
+      </div>
+    </div>
+  );
+};
+
+export default PaginaPrincipal;
